@@ -1,0 +1,35 @@
+/*Modifique a calculadora do exercício
+anterior removendo o botão e fazendo
+com que qualquer alteração de valor em
+qualquer um dos campos faça a resposta
+ser automaticamente calculada*/
+
+input[type='text'] {
+    width: 30%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.botao {
+    display: block;
+    width: 10%;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.botao:hover {
+    background: #111;
+}
+
+.problema {
+    background: red;
+    color: cornsilk;
+    padding: 5px;
+    margin: 5px;
+}
